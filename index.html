@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coding Workshop Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Coding Workshop Registration</h1>
+
+    <div class="workshop-details">
+        <h2>Workshop Details</h2>
+        <p><b>Date:</b> March 10</p>
+        <p><b>Time:</b> 6 PM - 8 PM</p>
+        <p><b>Mode:</b> Online (Google Meet)</p>
+        <p><b>Fee:</b> ₹199</p>
+    </div>
+
+    <form id="registrationForm">
+        <h2>User Details</h2>
+
+        <label>Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" id="phone" required>
+
+        <h2>Professional Details</h2>
+
+        <label>Are you a:</label>
+        <select id="profession">
+            <option value="Student">Student</option>
+            <option value="Working Professional">Working Professional</option>
+            <option value="Freelancer">Freelancer</option>
+        </select>
+
+        <label>College / Company Name:</label>
+        <input type="text" id="company">
+
+        <label>Experience Level:</label>
+        <select id="experience">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select>
+
+        <button type="submit">Register Now</button>
+    </form>
+
+    <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
